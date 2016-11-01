@@ -1,11 +1,11 @@
-\name{ejercicio4-package}
-\alias{ejercicio4-package}
-\alias{ejercicio4}
+\name{Paquete variado}
+\alias{pv}
+\alias{pv}
 \docType{package}
 \title{
-\packageTitle{ejercicio4}
+Este paquete incorpora tres funciones sencillas: hanoi, factorial y fibonacci.
 }
 \description{
-\packageDescription{ejercicio4}
+Si se quiere saber sobre las funciones, es mejor consultar la informacion de cada una de ellas-
 }
 
