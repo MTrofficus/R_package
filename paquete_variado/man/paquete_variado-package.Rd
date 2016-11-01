@@ -3,7 +3,7 @@
 \alias{paquete_variado}
 \docType{package}
 \title{
-\packageTitle{Paquete Variado}
+\packageTitle{paquetevariado}
 }
 \description{
 \packageDescription{Contiene tres funciones sencillas}
