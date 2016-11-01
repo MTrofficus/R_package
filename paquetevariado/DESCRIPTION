@@ -1,0 +1,9 @@
+Package: paquetevariado
+Type: Package
+Title: Un paquete variado
+Version: 1.0
+Date: 2016-11-01
+Author: Miguel Otero Pedrido
+Maintainer: Who to complain to <yourfault@somewhere.net>
+Description: EL paquete contiene tres funciones: hanoi,fibonacci y factorial
+License: What license is it under?

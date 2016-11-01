@@ -1,30 +1,29 @@
-\name{paquete_variado-package}
-\alias{paquete_variado-package}
-\alias{paquete_variado}
+\name{paquetevariado-package}
+\alias{paquetevariado-package}
+\alias{paquetevariado}
 \docType{package}
 \title{
-\packageTitle{paquete_variado}
+\packageTitle{paquetevariado}
 }
 \description{
-\packageDescription{paquete_variado}
+\packageDescription{paquetevariado}
 }
 \details{
 
 The DESCRIPTION file:
-\packageDESCRIPTION{paquete_variado}
-\packageIndices{paquete_variado}
+\packageDESCRIPTION{paquetevariado}
+\packageIndices{paquetevariado}
 ~~ An overview of how to use the package, including the most important functions ~~
 }
 \author{
-\packageAuthor{paquete_variado}
+\packageAuthor{paquetevariado}
 
-Maintainer: \packageMaintainer{paquete_variado}
+Maintainer: \packageMaintainer{paquetevariado}
 }
 \references{
 ~~ Literature or other references for background information ~~
 }
-~~ Optionally other standard keywords, one per line, from file KEYWORDS in the R ~~
-~~ documentation directory ~~
+~~ Optionally other standard keywords, one per line, from file KEYWORDS in the R documentation directory ~~
 \keyword{ package }
 \seealso{
 ~~ Optional links to other man pages, e.g. ~~
