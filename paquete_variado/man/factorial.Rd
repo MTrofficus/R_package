@@ -2,10 +2,10 @@
 \alias{factorial}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-Funcion factorial
+%%  ~~function to do ... ~~
 }
 \description{
-Funcion que calcula el factorial de un valor que se le pase.
+%%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
 \usage{
 factorial(n)

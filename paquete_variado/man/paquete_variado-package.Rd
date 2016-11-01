@@ -1,18 +1,19 @@
-\name{paquete_variado}
+\name{paquete_variado-package}
 \alias{paquete_variado-package}
 \alias{paquete_variado}
 \docType{package}
 \title{
-\packageTitle{paquetevariado}
+\packageTitle{paquete_variado}
 }
 \description{
-\packageDescription{Contiene tres funciones sencillas}
+\packageDescription{paquete_variado}
 }
 \details{
 
-
-\packageDESCRIPTION{Contiene tres funciones: hanoi, fibonacci y factorial}
+The DESCRIPTION file:
+\packageDESCRIPTION{paquete_variado}
 \packageIndices{paquete_variado}
+~~ An overview of how to use the package, including the most important functions ~~
 }
 \author{
 \packageAuthor{paquete_variado}
@@ -22,7 +23,8 @@ Maintainer: \packageMaintainer{paquete_variado}
 \references{
 ~~ Literature or other references for background information ~~
 }
-
+~~ Optionally other standard keywords, one per line, from file KEYWORDS in the R ~~
+~~ documentation directory ~~
 \keyword{ package }
 \seealso{
 ~~ Optional links to other man pages, e.g. ~~

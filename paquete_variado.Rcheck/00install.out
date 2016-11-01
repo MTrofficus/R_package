@@ -1,7 +1,0 @@
-* installing *source* package ‘paquetevariado’ ...
-** R
-** preparing package for lazy loading
-** help
-Error : /home/trofficus/Escritorio/local_repository/paquete_variado/man/paquete_variado-package.Rd:6: DESCRIPTION file is for package 'paquetevariado', not 'Paquete Variado'
-ERROR: installing Rd objects failed for package ‘paquetevariado’
-* removing ‘/home/trofficus/Escritorio/local_repository/paquete_variado.Rcheck/paquetevariado’

@@ -2,10 +2,10 @@
 \alias{fibonacci}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-Funcion Fibonacci
+%%  ~~function to do ... ~~
 }
 \description{
-Funcion que calcula la sucesion de Fibonacci.
+%%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
 \usage{
 fibonacci(N)
