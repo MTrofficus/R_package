@@ -1,21 +1,19 @@
-\name{factorial}
-\alias{factorial}
+\name{fibonacci}
+\alias{fibonacci}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-
-Factorial
-
+Funcion Fibonacci
 }
 \description{
-Una funcion que calcula el factorial de un entero positivo que se le introduzca.
+Funcion que calcula la sucesion de Fibonacci.
 }
 \usage{
-factorial(n)
+fibonacci(N)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{n}{
-%%     ~~Describe \code{n} here~~
+  \item{N}{
+%%     ~~Describe \code{N} here~~
 }
 }
 \details{
@@ -49,19 +47,15 @@ factorial(n)
 ##--	or do  help(data=index)  for the standard data sets.
 
 ## The function is currently defined as
-function (n) 
+function (N) 
 {
-    if (n < 0) {
-        print("Introduce un n<U+00FA>mero entero y positivo")
+    if (N == 0) {
+        return(0)
     }
-    else if (n == 0) {
+    else if (N == 1) {
         return(1)
     }
-    final <- n
-    for (i in seq(n - 1, 1, -1)) {
-        final <- final * i
-    }
-    return(final)
+    return(fibonacci(N - 1) + fibonacci(N - 2))
   }
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the

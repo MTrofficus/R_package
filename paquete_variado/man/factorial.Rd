@@ -1,28 +1,19 @@
-\name{hanoi}
-\alias{hanoi}
+\name{factorial}
+\alias{factorial}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-Hanoi
+Funcion factorial
 }
 \description{
-Función recursiva que resuelve el juego de las torres de Hanoi.
+Funcion que calcula el factorial de un valor que se le pase.
 }
 \usage{
-hanoi(N, inicial = "1", temporal = "2", final = "3")
+factorial(n)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{N}{
-%%     ~~Describe \code{N} here~~
-}
-  \item{inicial}{
-%%     ~~Describe \code{inicial} here~~
-}
-  \item{temporal}{
-%%     ~~Describe \code{temporal} here~~
-}
-  \item{final}{
-%%     ~~Describe \code{final} here~~
+  \item{n}{
+%%     ~~Describe \code{n} here~~
 }
 }
 \details{
@@ -56,13 +47,19 @@ hanoi(N, inicial = "1", temporal = "2", final = "3")
 ##--	or do  help(data=index)  for the standard data sets.
 
 ## The function is currently defined as
-function (N, inicial = "1", temporal = "2", final = "3") 
+function (n) 
 {
-    if (N > 0) {
-        hanoi(N - 1, inicial, final, temporal)
-        cat("se mueve de torre", inicial, "a torre", final, "\n")
-        hanoi(N - 1, temporal, inicial, final)
+    if (n < 0) {
+        print("Introduce un n<U+00FA>mero entero y positivo")
     }
+    else if (n == 0) {
+        return(1)
+    }
+    final <- n
+    for (i in seq(n - 1, 1, -1)) {
+        final <- final * i
+    }
+    return(final)
   }
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the

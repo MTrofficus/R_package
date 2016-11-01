@@ -1,19 +1,28 @@
-\name{fibonacci}
-\alias{fibonacci}
+\name{hanoi}
+\alias{hanoi}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-Fibonacci
+Funcion de Hanoi
 }
 \description{
-Función que retorna la famosa sucesión de Fibonacci
+Funcion que resuelve recursivamente el juego de las torres de Hanoi.
 }
 \usage{
-fibonacci(N)
+hanoi(N, inicial = "1", temporal = "2", final = "3")
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{N}{
 %%     ~~Describe \code{N} here~~
+}
+  \item{inicial}{
+%%     ~~Describe \code{inicial} here~~
+}
+  \item{temporal}{
+%%     ~~Describe \code{temporal} here~~
+}
+  \item{final}{
+%%     ~~Describe \code{final} here~~
 }
 }
 \details{
@@ -47,15 +56,13 @@ fibonacci(N)
 ##--	or do  help(data=index)  for the standard data sets.
 
 ## The function is currently defined as
-function (N) 
+function (N, inicial = "1", temporal = "2", final = "3") 
 {
-    if (N == 0) {
-        return(0)
+    if (N > 0) {
+        hanoi(N - 1, inicial, final, temporal)
+        cat("se mueve de torre", inicial, "a torre", final, "\n")
+        hanoi(N - 1, temporal, inicial, final)
     }
-    else if (N == 1) {
-        return(1)
-    }
-    return(fibonacci(N - 1) + fibonacci(N - 2))
   }
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
