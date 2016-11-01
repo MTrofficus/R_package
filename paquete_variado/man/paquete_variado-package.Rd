@@ -6,14 +6,13 @@
 \packageTitle{Paquete Variado}
 }
 \description{
-\packageDescription{Contiene tres funciones sencillas.}
+\packageDescription{Contiene tres funciones sencillas}
 }
 \details{
 
 
 \packageDESCRIPTION{Contiene tres funciones: hanoi, fibonacci y factorial}
 \packageIndices{paquete_variado}
-~~ An overview of how to use the package, including the most important functions ~~
 }
 \author{
 \packageAuthor{paquete_variado}

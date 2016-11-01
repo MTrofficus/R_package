@@ -1,9 +1,9 @@
-Package: paquete_variado
+Package: paquetevariado
 Type: Package
-Title: What the package does (short line)
+Title: El paquete variado
 Version: 1.0
 Date: 2016-11-01
 Author: Who wrote it
 Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
+Description: El paquete incorpora tres funciones sencillas
 License: What license is it under?
