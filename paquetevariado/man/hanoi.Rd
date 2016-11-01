@@ -2,10 +2,10 @@
 \alias{hanoi}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-%%  ~~function to do ... ~~
+Funcion hanoi
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of what the function does. ~~
+Esta funcion resuelve recursivamente el juego de las torres de Hanoi
 }
 \usage{
 hanoi(N, inicial = "1", temporal = "2", final = "3")
